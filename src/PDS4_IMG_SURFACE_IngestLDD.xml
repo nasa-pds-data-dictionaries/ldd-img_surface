@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1E00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://pds.nasa.gov/pds4/geom/v1/PDS4_GEOM_1E00_1800.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/geom/v1/PDS4_GEOM_1E00_1810.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <Ingest_LDD 
     xmlns="http://pds.nasa.gov/pds4/pds/v1"
@@ -9,7 +9,7 @@
     xmlns:geom="http://pds.nasa.gov/pds4/geom/v1"
     xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
     xsi:schemaLocation="https://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1E00.xsd     
-                        http://pds.nasa.gov/pds4/geom/v1 https://pds.nasa.gov/pds4/geom/v1/PDS4_GEOM_1E00_1800.xsd">
+                        http://pds.nasa.gov/pds4/geom/v1 https://pds.nasa.gov/pds4/geom/v1/PDS4_GEOM_1E00_1810.xsd">
     <name>Surface Imaging</name>
     <ldd_version_id>1.2.1.0</ldd_version_id>
     <dictionary_type>Discipline</dictionary_type>
@@ -44,9 +44,10 @@
            Stereo_Product_Parameters Class
       - added Reachability Class and attributes and classes including these children:
           Reach_Instruments and Reach_Instrument classes and their attributes
+      - ping to update to GEOM v1.9.0.0
       
     </comment>
-    <last_modification_date_time>2020-10-30T09:00:00</last_modification_date_time>
+    <last_modification_date_time>2020-12-07T07:00:00</last_modification_date_time>
   
 <!-- Start attribute definitions -->
   
